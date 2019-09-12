@@ -40,7 +40,7 @@ for i in range(1, nframes):
 	if(changeDetected):
 		prevSample = sample
 
-	print("sample=%06d, value=%06d, falling=%06d, rising=%06d, full pulses=%06d" %(i, sample, foundFallingEdges, foundRisingEdges, (foundFallingEdges+foundRisingEdges)))
+	print("sample=%06d, value=%06d, falling=%06d, rising=%06d, pulses=%06d, cycles=%06d" %(i, sample, foundFallingEdges, foundRisingEdges, (foundFallingEdges+foundRisingEdges), ((foundFallingEdges+foundRisingEdges)/2)))
 
 
 
