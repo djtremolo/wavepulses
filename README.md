@@ -1,15 +1,16 @@
 # wavepulses
 
-install python (>3.6)
+## install python (>3.6)
 
-install libs:
+## install libs:
 pip install setuptools
+
 pip install wave
 
 
-start:
+## start:
 python -m wavepulses.py
 
 
-generate a log to verify all pulses are detected (the log will be huge, ~1.1GB)
+## generate a log to verify all pulses are detected (the log will be huge, ~1.1GB)
 python -m wavepulses.py > log.txt
